@@ -5,7 +5,12 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>ADLS_Explorer</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Resources\blue_cloud_storage.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\blue_cloud_storage.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="fontawesome-webfont-v4.7.0.ttf">

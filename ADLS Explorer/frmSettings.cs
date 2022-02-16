@@ -13,6 +13,7 @@ namespace ADLS_Explorer
         public frmSettings()
         {
             InitializeComponent();
+            Icon = Properties.Resources.blue_cloud_storage;
             btnAdd.Image = FontAwesome.Type.Plus.AsImage(Color.Green);
             mnuDelete.Image = FontAwesome.Type.Remove.AsImage(Color.Red);
 

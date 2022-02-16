@@ -20,6 +20,7 @@ namespace ADLS_Explorer
         public frmOverwrite(string path)
         {
             InitializeComponent();
+            Icon = Properties.Resources.blue_cloud_storage;
             _path = path;
             lblFile.Text = $"'{path}'";
         }

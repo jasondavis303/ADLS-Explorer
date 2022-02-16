@@ -17,6 +17,8 @@ namespace ADLS_Explorer
         {
             InitializeComponent();
 
+            Icon = Properties.Resources.blue_cloud_storage;
+
             ilIcons.Images.Add(Constants.CLOSED_FOLDER_ICON, NativeMethods.GetClosedFolderIcon());
             ilIcons.Images.Add(Constants.OPEN_FOLDER_ICON, NativeMethods.GetOpenFolderIcon());
 

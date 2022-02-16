@@ -19,6 +19,7 @@ namespace ADLS_Explorer
         public frmTransfers(AZContainer container, IEnumerable<TransferInfo> transfers, bool isUpload)
         {
             InitializeComponent();
+            Icon = Properties.Resources.blue_cloud_storage;
             _container = container;
             _transferInfos.AddRange(transfers);
             _isUpload = isUpload;
